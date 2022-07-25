@@ -7,7 +7,7 @@ An express web server which scrapes USTVGO and generates an M3U for the specifie
 To run USTVGO Scraper on your device (localhost), open your Terminal and run the following:
 
 ```
-$ git clone https://github.com/BrianWalczak/USTVGOScraper.git
+$ git clone https://github.com/BrianWalczak/USTVGOScraper
 $ cd USTVGOScraper
 $ npm i
 $ node .
