@@ -1,6 +1,6 @@
 # USTVGO Scraper
 An express web server which scrapes USTVGO and generates an M3U for the specified channel, made using Node.JS
-<br
+
 
 ### Installation
 
