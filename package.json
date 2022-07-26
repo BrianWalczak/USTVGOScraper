@@ -1,0 +1,26 @@
+{
+  "name": "ustvgo-scraper",
+  "version": "1.0.1",
+  "description": "An express web server which scrapes USTVGO and generates an M3U for the specified channel, made using Node.JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Brian Walczak",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "express": "^4.18.1",
+    "node-fetch": "^3.2.6"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrianWalczak/USTVGOScraper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BrianWalczak/USTVGOScraper/issues"
+  },
+  "homepage": "https://github.com/BrianWalczak/USTVGOScraper#readme"
+}
