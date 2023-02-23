@@ -1,5 +1,6 @@
 ```json
-   NOTICE: USTVGO has been seized by the Anti-Piracy Coalition, and is no longer available for use. As a result, this repository is deprecated.
+   NOTICE: USTVGO has been seized by the Anti-Piracy Coalition, and is no longer available for use.
+   As a result, this repository is deprecated.
 ```
 
 # USTVGO Scraper
