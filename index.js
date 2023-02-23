@@ -70,4 +70,4 @@ let server = app.listen(3000, function(){
   console.log("USTVGO Scraper is at localhost:3000 (port 3000)");
 });
 
-//Code made by Brian Walczak. You are free to modify this code without a license. view the LICENSE file for more details
+//Made by Brian Walczak. View the LICENSE file for more details on distribution of this code.
