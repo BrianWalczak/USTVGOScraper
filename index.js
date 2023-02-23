@@ -7,7 +7,7 @@ const app = express();
 app.use(express.static(__dirname + "/"))
 
 app.get('/', function(req, res){
-	res.send(`<html style='font-family:system-ui'><center>To generate an M3U from USTVGO.TV, search for the channel by visiting /get/ (It must be the channels code)<br><br>Example: ${req.protocol + '://' + req.get('host')}/get/FoodNetwork<br><br></center></html>`)
+	res.send(`<html style='font-family:system-ui'><center>To generate an M3U from USTVGO.TV, search for the channel by visiting /get/ (It must be the channels code)<br><br>Example: ${req.protocol + '://' + req.get('host')}/get/FoodNetwork<br><br><small>Copyright 2022, Brian Walczak, All rights reserved.</small></center></html>`)
 });
 app.use('/', router);
 
@@ -68,6 +68,7 @@ app.use(function(req, res, next) {
 
 let server = app.listen(3000, function(){
   console.log("USTVGO Scraper is at localhost:3000 (port 3000)");
+	console.log("Copyright 2022, Brian Walczak, All rights reserved.")
 });
 
-//Made by Brian Walczak. View the LICENSE file for more details on distribution of this code.
+//Copyright 2022, Brian Walczak, All rights reserved.
